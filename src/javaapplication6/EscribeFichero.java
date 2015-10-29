@@ -30,6 +30,11 @@ public class EscribeFichero
             e.printStackTrace();
         }  
         
+        } catch (IOException e) {
+            e.printStackTrace();
+        }  
+        catch (ArithmeticException e){System.out.println ("El programa se ha roto en el primer bloque try");
+    }
         
         
         finally {
