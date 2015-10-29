@@ -1,3 +1,5 @@
+package javaapplication6;
+
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
