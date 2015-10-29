@@ -26,11 +26,10 @@ public class EscribeFichero
             for (int i = 0; i < 10; i++)
                 fichero.write("Linea " + i);
  
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }  
-        catch (ArithmeticException e){System.out.println ("El programa se ha roto en el primer bloque try");
-    }
+        
         
         
         finally {
